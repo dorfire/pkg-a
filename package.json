@@ -1,14 +1,18 @@
 {
   "name": "@dorfire/pkg-a",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Test package A",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/dorfire/pkg-a.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies:": {
-  	"@dorfire/pkg-a-dep-1": "1.1.0",
-  	"@dorfire/pkg-a-dep-2": "1.1.0"
+  	"@dorfire/pkg-a-dep-1": "1.2.0",
+  	"@dorfire/pkg-a-dep-2": "1.2.0"
   },
   "author": "Dor Fire",
   "license": "MIT"
